@@ -16,3 +16,5 @@ class HighValue:
             self.value_first += increase_by
         elif selection == "second":
             self.value_second += increase_by
+        else:
+            raise Exception("Invalid selection")
